@@ -1,0 +1,40 @@
+/******IMPORTS******/
+
+@font-face {
+    font-family: "Inter";
+    src: url(../Assets/Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url(../Assets/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "titilium_web";
+    src: url(../Assets/Fonts/titilium_web/TitilliumWeb-Regular.ttf);
+}
+
+/******RESET******/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    color: white;
+    background-color: #1B1426;
+}
+
+/******Classes Genéricas******/
+
+.layout-grid{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
