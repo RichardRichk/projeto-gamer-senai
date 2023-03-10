@@ -80,6 +80,7 @@ header .header-bottom nav{
     flex-direction: column;
     
     border: 1px solid white;
+    border-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(27, 20, 38, 0)) 1;
 }
 
 header .header-bottom .menu-usuario{
