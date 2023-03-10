@@ -27,14 +27,61 @@ html, body{
 }
 
 body{
-    color: white;
+    color: #ffffff;
     background-color: #1B1426;
 }
 
 /******Classes Genéricas******/
 
 .layout-grid{
-    width: 80%;
-    max-width: 1200px;
+    width: 90%;
+    height: 100%;
     margin: 0 auto;
+}
+
+.flex-between-center{ /* flex + justify content + align itens */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MOBILE FIRST */
+
+/******HEADER******/
+
+header {
+    height: 60px;
+}
+
+/* HEADER TOP */
+
+header .header-top {
+    display: none;
+}
+
+/* HEADER BOTTOM */
+
+header .header-bottom{
+    height: 100%;
+}
+
+header .header-bottom img.logo{
+    width: 86px;
+}
+
+header .header-bottom nav{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 80vw;
+    height: calc(100vh - 60px);
+
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid white;
+}
+
+header .header-bottom .menu-usuario{
+    display: none;
 }
